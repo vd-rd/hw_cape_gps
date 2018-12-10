@@ -1,0 +1,1 @@
+GPS cape with support for active/passive antenna
