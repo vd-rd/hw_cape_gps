@@ -217,146 +217,6 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="fibocom">
-<packages>
-<package name="_GTS_4E_60">
-<smd name="24" x="-7.000003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="23" x="-5.900003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="22" x="-4.800003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="21" x="-3.700003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="20" x="-2.600003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="19" x="-1.500003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="18" x="-0.400003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="17" x="2.599996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="16" x="3.699996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="15" x="4.799996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="14" x="5.899996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="13" x="6.999996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="1" x="-7.000003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="2" x="-5.900003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="3" x="-4.810003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="4" x="-3.700003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="5" x="-2.600003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="6" x="-1.500003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="7" x="-0.400003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="8" x="2.599996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="9" x="3.699996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="10" x="4.799996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="11" x="5.899996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<smd name="12" x="6.999996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<wire x1="7.999996875" y1="6.100003125" x2="7.999996875" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="7.999996875" y1="-6.099996875" x2="7.449996875" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="7.999996875" y1="6.100003125" x2="7.449996875" y2="6.100003125" width="0.12" layer="21"/>
-<wire x1="2.149996875" y1="6.100003125" x2="0.049996875" y2="6.100003125" width="0.12" layer="21"/>
-<wire x1="-7.450003125" y1="6.100003125" x2="-8.000003125" y2="6.100003125" width="0.12" layer="21"/>
-<wire x1="-8.000003125" y1="6.100003125" x2="-8.000003125" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="-8.000003125" y1="-6.099996875" x2="-7.450003125" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="0.049996875" y1="-6.099996875" x2="2.149996875" y2="-6.099996875" width="0.12" layer="21"/>
-<text x="6.479996875" y="-2.849996875" size="1.016" layer="51" rot="R270">12</text>
-<text x="6.479996875" y="4.690003125" size="1.016" layer="51" rot="R270">13</text>
-<text x="-7.550003125" y="-3.829996875" size="1.016" layer="21" rot="R270">1</text>
-<wire x1="-7.550003125" y1="4.680003125" x2="-7.540003125" y2="4.680003125" width="0" layer="21"/>
-<text x="-7.550003125" y="4.690003125" size="1.016" layer="51" rot="R270">24</text>
-<wire x1="8.299996875" y1="7.750003125" x2="8.299996875" y2="-7.749996875" width="0.12" layer="39"/>
-<wire x1="8.299996875" y1="-7.749996875" x2="-8.300003125" y2="-7.749996875" width="0.12" layer="39"/>
-<wire x1="-8.300003125" y1="-7.749996875" x2="-8.300003125" y2="7.750003125" width="0.12" layer="39"/>
-<wire x1="-8.300003125" y1="7.750003125" x2="8.299996875" y2="7.750003125" width="0.12" layer="39"/>
-<text x="8.36000625" y="2.5" size="1.016" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
-<text x="-9.380003125" y="2.98" size="1.016" layer="27" font="vector" ratio="11" rot="R270">&gt;VALUE</text>
-<wire x1="7.6" y1="-6.4" x2="8.3" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="8.3" y1="-6.4" x2="8.3" y2="6.4" width="0.2" layer="21"/>
-<wire x1="8.3" y1="6.4" x2="7.6" y2="6.4" width="0.2" layer="21"/>
-<wire x1="2" y1="6.4" x2="0.2" y2="6.4" width="0.2" layer="21"/>
-<wire x1="-7.6" y1="6.4" x2="-8.3" y2="6.4" width="0.2" layer="21"/>
-<wire x1="-8.3" y1="6.4" x2="-8.3" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="-8.3" y1="-6.4" x2="-7.6" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="0.2" y1="-6.4" x2="2" y2="-6.4" width="0.2" layer="21"/>
-<circle x="-8" y="-6.8" radius="0.2" width="0.2" layer="21"/>
-<wire x1="5.3" y1="-7.1" x2="5.4" y2="-7.1" width="0.2" layer="21"/>
-<wire x1="6.4" y1="-7.1" x2="6.5" y2="-7.1" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="_GTS_4E_60">
-<pin name="NC" x="-12.7" y="15.24" length="short"/>
-<pin name="NC1" x="-12.7" y="12.7" length="short"/>
-<pin name="TIMEPULSE" x="-12.7" y="10.16" length="short"/>
-<pin name="ON_OFF" x="-12.7" y="7.62" length="short"/>
-<pin name="NC2" x="-12.7" y="5.08" length="short"/>
-<pin name="NC3" x="-12.7" y="2.54" length="short"/>
-<pin name="NC4" x="-12.7" y="0" length="short"/>
-<pin name="NC5" x="-12.7" y="-2.54" length="short"/>
-<pin name="VCC_RF" x="-12.7" y="-5.08" length="short"/>
-<pin name="GND" x="-12.7" y="-7.62" length="short"/>
-<pin name="RF_IN" x="-12.7" y="-10.16" length="short"/>
-<pin name="GND1" x="-12.7" y="-12.7" length="short"/>
-<pin name="GND2" x="22.86" y="-12.7" length="short" rot="R180"/>
-<pin name="NC6" x="22.86" y="-10.16" length="short" rot="R180"/>
-<pin name="NC7" x="22.86" y="-7.62" length="short" rot="R180"/>
-<pin name="NC8" x="22.86" y="-5.08" length="short" rot="R180"/>
-<pin name="RST" x="22.86" y="-2.54" length="short" rot="R180"/>
-<pin name="BAUD_RATE_0" x="22.86" y="0" length="short" rot="R180"/>
-<pin name="BAUD_RATE_1" x="22.86" y="2.54" length="short" rot="R180"/>
-<pin name="TXD" x="22.86" y="5.08" length="short" rot="R180"/>
-<pin name="RXD" x="22.86" y="7.62" length="short" rot="R180"/>
-<pin name="V_BACK" x="22.86" y="10.16" length="short" rot="R180"/>
-<pin name="VCC" x="22.86" y="12.7" length="short" rot="R180"/>
-<pin name="GND3" x="22.86" y="15.24" length="short" rot="R180"/>
-<wire x1="-10.16" y1="17.78" x2="20.32" y2="17.78" width="0.254" layer="94"/>
-<wire x1="20.32" y1="17.78" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
-<text x="0" y="18.796" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="12.7" size="2.1844" layer="94" font="vector" ratio="15">FIBOCOM</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GTS-4E-60" prefix="IC">
-<description>The GTS-4E is a new generation of GPS receiving module.
-
-FIBOCOM
-
-GTS 4E 60</description>
-<gates>
-<gate name="IC" symbol="_GTS_4E_60" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="_GTS_4E_60">
-<connects>
-<connect gate="IC" pin="BAUD_RATE_0" pad="18"/>
-<connect gate="IC" pin="BAUD_RATE_1" pad="19"/>
-<connect gate="IC" pin="GND" pad="10"/>
-<connect gate="IC" pin="GND1" pad="12"/>
-<connect gate="IC" pin="GND2" pad="13"/>
-<connect gate="IC" pin="GND3" pad="24"/>
-<connect gate="IC" pin="NC" pad="1"/>
-<connect gate="IC" pin="NC1" pad="2"/>
-<connect gate="IC" pin="NC2" pad="5"/>
-<connect gate="IC" pin="NC3" pad="6"/>
-<connect gate="IC" pin="NC4" pad="7"/>
-<connect gate="IC" pin="NC5" pad="8"/>
-<connect gate="IC" pin="NC6" pad="14"/>
-<connect gate="IC" pin="NC7" pad="15"/>
-<connect gate="IC" pin="NC8" pad="16"/>
-<connect gate="IC" pin="ON_OFF" pad="4"/>
-<connect gate="IC" pin="RF_IN" pad="11"/>
-<connect gate="IC" pin="RST" pad="17"/>
-<connect gate="IC" pin="RXD" pad="21"/>
-<connect gate="IC" pin="TIMEPULSE" pad="3"/>
-<connect gate="IC" pin="TXD" pad="20"/>
-<connect gate="IC" pin="VCC" pad="23"/>
-<connect gate="IC" pin="VCC_RF" pad="9"/>
-<connect gate="IC" pin="V_BACK" pad="22"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="antenova">
 <packages>
 <package name="PCBCOMPONENT_1" urn="urn:adsk.eagle:footprint:6631753/1" locally_modified="yes">
@@ -15284,6 +15144,152 @@ package type OT</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="parts-fibocom" urn="urn:adsk.eagle:library:7452888">
+<packages>
+<package name="_GTS_4E_60" urn="urn:adsk.eagle:footprint:7452889/2" library_version="2">
+<smd name="24" x="-7.000003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="23" x="-5.900003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="22" x="-4.800003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="21" x="-3.700003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="20" x="-2.600003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="19" x="-1.500003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="18" x="-0.400003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="17" x="2.599996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="16" x="3.699996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="15" x="4.799996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="14" x="5.899996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="13" x="6.999996875" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="1" x="-7.000003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="2" x="-5.900003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="3" x="-4.810003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="4" x="-3.700003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="5" x="-2.600003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="6" x="-1.500003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="7" x="-0.400003125" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="8" x="2.599996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="9" x="3.699996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="10" x="4.799996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="11" x="5.899996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<smd name="12" x="6.999996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
+<wire x1="7.999996875" y1="6.100003125" x2="7.999996875" y2="-6.099996875" width="0.12" layer="21"/>
+<wire x1="7.999996875" y1="-6.099996875" x2="7.449996875" y2="-6.099996875" width="0.12" layer="21"/>
+<wire x1="7.999996875" y1="6.100003125" x2="7.449996875" y2="6.100003125" width="0.12" layer="21"/>
+<wire x1="2.149996875" y1="6.100003125" x2="0.049996875" y2="6.100003125" width="0.12" layer="21"/>
+<wire x1="-7.450003125" y1="6.100003125" x2="-8.000003125" y2="6.100003125" width="0.12" layer="21"/>
+<wire x1="-8.000003125" y1="6.100003125" x2="-8.000003125" y2="-6.099996875" width="0.12" layer="21"/>
+<wire x1="-8.000003125" y1="-6.099996875" x2="-7.450003125" y2="-6.099996875" width="0.12" layer="21"/>
+<wire x1="0.049996875" y1="-6.099996875" x2="2.149996875" y2="-6.099996875" width="0.12" layer="21"/>
+<wire x1="-7.550003125" y1="4.680003125" x2="-7.540003125" y2="4.680003125" width="0" layer="21"/>
+<wire x1="7.6" y1="-6.4" x2="8.3" y2="-6.4" width="0.2" layer="21"/>
+<wire x1="8.3" y1="-6.4" x2="8.3" y2="6.4" width="0.2" layer="21"/>
+<wire x1="8.3" y1="6.4" x2="7.6" y2="6.4" width="0.2" layer="21"/>
+<wire x1="2" y1="6.4" x2="0.2" y2="6.4" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="6.4" x2="-8.3" y2="6.4" width="0.2" layer="21"/>
+<wire x1="-8.3" y1="6.4" x2="-8.3" y2="-6.4" width="0.2" layer="21"/>
+<wire x1="-8.3" y1="-6.4" x2="-7.6" y2="-6.4" width="0.2" layer="21"/>
+<wire x1="0.2" y1="-6.4" x2="2" y2="-6.4" width="0.2" layer="21"/>
+<wire x1="5.3" y1="-7.1" x2="5.4" y2="-7.1" width="0.2" layer="21"/>
+<wire x1="6.4" y1="-7.1" x2="6.5" y2="-7.1" width="0.2" layer="21"/>
+<text x="6.479996875" y="-2.849996875" size="1.016" layer="51" rot="R270">12</text>
+<text x="6.479996875" y="4.690003125" size="1.016" layer="51" rot="R270">13</text>
+<text x="-7.550003125" y="-3.829996875" size="1.016" layer="21" rot="R270">1</text>
+<text x="-7.550003125" y="4.690003125" size="1.016" layer="51" rot="R270">24</text>
+<text x="8.36000625" y="2.5" size="1.016" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-9.380003125" y="2.98" size="1.016" layer="27" font="vector" ratio="11" rot="R270">&gt;VALUE</text>
+<circle x="-8" y="-6.8" radius="0.2" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="_GTS_4E_60" urn="urn:adsk.eagle:package:7452893/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="_GTS_4E_60"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="_GTS_4E_60" urn="urn:adsk.eagle:symbol:7452891/1" library_version="1">
+<pin name="NC" x="-12.7" y="15.24" length="short"/>
+<pin name="NC1" x="-12.7" y="12.7" length="short"/>
+<pin name="TIMEPULSE" x="-12.7" y="10.16" length="short"/>
+<pin name="ON_OFF" x="-12.7" y="7.62" length="short"/>
+<pin name="NC2" x="-12.7" y="5.08" length="short"/>
+<pin name="NC3" x="-12.7" y="2.54" length="short"/>
+<pin name="NC4" x="-12.7" y="0" length="short"/>
+<pin name="NC5" x="-12.7" y="-2.54" length="short"/>
+<pin name="VCC_RF" x="-12.7" y="-5.08" length="short"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short"/>
+<pin name="RF_IN" x="-12.7" y="-10.16" length="short"/>
+<pin name="GND1" x="-12.7" y="-12.7" length="short"/>
+<pin name="GND2" x="22.86" y="-12.7" length="short" rot="R180"/>
+<pin name="NC6" x="22.86" y="-10.16" length="short" rot="R180"/>
+<pin name="NC7" x="22.86" y="-7.62" length="short" rot="R180"/>
+<pin name="NC8" x="22.86" y="-5.08" length="short" rot="R180"/>
+<pin name="RST" x="22.86" y="-2.54" length="short" rot="R180"/>
+<pin name="BAUD_RATE_0" x="22.86" y="0" length="short" rot="R180"/>
+<pin name="BAUD_RATE_1" x="22.86" y="2.54" length="short" rot="R180"/>
+<pin name="TXD" x="22.86" y="5.08" length="short" rot="R180"/>
+<pin name="RXD" x="22.86" y="7.62" length="short" rot="R180"/>
+<pin name="V_BACK" x="22.86" y="10.16" length="short" rot="R180"/>
+<pin name="VCC" x="22.86" y="12.7" length="short" rot="R180"/>
+<pin name="GND3" x="22.86" y="15.24" length="short" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="20.32" y2="17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="0" y="18.796" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="12.7" size="2.1844" layer="94" font="vector" ratio="15">FIBOCOM</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GTS-4E-60" urn="urn:adsk.eagle:component:7452895/2" prefix="IC" library_version="2">
+<description>The GTS-4E is a new generation of GPS receiving module.
+
+FIBOCOM
+
+GTS 4E 60</description>
+<gates>
+<gate name="IC" symbol="_GTS_4E_60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="_GTS_4E_60">
+<connects>
+<connect gate="IC" pin="BAUD_RATE_0" pad="18"/>
+<connect gate="IC" pin="BAUD_RATE_1" pad="19"/>
+<connect gate="IC" pin="GND" pad="10"/>
+<connect gate="IC" pin="GND1" pad="12"/>
+<connect gate="IC" pin="GND2" pad="13"/>
+<connect gate="IC" pin="GND3" pad="24"/>
+<connect gate="IC" pin="NC" pad="1"/>
+<connect gate="IC" pin="NC1" pad="2"/>
+<connect gate="IC" pin="NC2" pad="5"/>
+<connect gate="IC" pin="NC3" pad="6"/>
+<connect gate="IC" pin="NC4" pad="7"/>
+<connect gate="IC" pin="NC5" pad="8"/>
+<connect gate="IC" pin="NC6" pad="14"/>
+<connect gate="IC" pin="NC7" pad="15"/>
+<connect gate="IC" pin="NC8" pad="16"/>
+<connect gate="IC" pin="ON_OFF" pad="4"/>
+<connect gate="IC" pin="RF_IN" pad="11"/>
+<connect gate="IC" pin="RST" pad="17"/>
+<connect gate="IC" pin="RXD" pad="21"/>
+<connect gate="IC" pin="TIMEPULSE" pad="3"/>
+<connect gate="IC" pin="TXD" pad="20"/>
+<connect gate="IC" pin="VCC" pad="23"/>
+<connect gate="IC" pin="VCC_RF" pad="9"/>
+<connect gate="IC" pin="V_BACK" pad="22"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7452893/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15302,7 +15308,7 @@ package type OT</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="IC1" library="fibocom" deviceset="GTS-4E-60" device=""/>
+<part name="IC1" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="GTS-4E-60" device="" package3d_urn="urn:adsk.eagle:package:7452893/2"/>
 <part name="ANT1" library="antenova" deviceset="M20047" device="" package3d_urn="urn:adsk.eagle:package:6631754/1"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA12-2" device="" package3d_urn="urn:adsk.eagle:package:8353/1"/>
 <part name="U$1" library="sr-passives" deviceset="ANT1590-" device="2540A"/>
@@ -15319,9 +15325,9 @@ package type OT</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="TXD" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="RXD" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="PON" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
@@ -15371,8 +15377,8 @@ package type OT</description>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="3V3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15655,13 +15661,6 @@ package type OT</description>
 <wire x1="66.04" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BUS_3V3" class="0">
-<segment>
-<wire x1="205.74" y1="149.86" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
-<label x="182.88" y="149.86" size="1.778" layer="95"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="BUS_SWD_EXTRA" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="10"/>
@@ -15681,6 +15680,11 @@ package type OT</description>
 <pinref part="SV2" gate="1" pin="2"/>
 <wire x1="66.04" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <label x="43.18" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="205.74" y1="149.86" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
+<label x="182.88" y="149.86" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BUS_VBAT" class="0">
@@ -15813,14 +15817,14 @@ package type OT</description>
 <attribute name="NAME" x="49.53" y="136.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.53" y="136.398" size="1.778" layer="96"/>
 </instance>
-<instance part="TP1" gate="G$1" x="60.96" y="20.32" smashed="yes" rot="R90">
+<instance part="TXD" gate="G$1" x="60.96" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.31" y="19.304" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="63.5" y="21.59" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP2" gate="G$1" x="60.96" y="17.78" smashed="yes" rot="R90">
+<instance part="RXD" gate="G$1" x="60.96" y="17.78" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" x="63.5" y="19.05" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP4" gate="G$1" x="60.96" y="12.7" smashed="yes" rot="R90">
+<instance part="PON" gate="G$1" x="60.96" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.31" y="11.684" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="63.5" y="13.97" size="1.778" layer="97" rot="R90"/>
 </instance>
@@ -15958,10 +15962,10 @@ package type OT</description>
 <instance part="GND20" gate="1" x="27.94" y="83.82" smashed="yes">
 <attribute name="VALUE" x="25.4" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="TP3" gate="G$1" x="60.96" y="15.24" smashed="yes" rot="R90">
+<instance part="3V3" gate="G$1" x="60.96" y="15.24" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" x="63.5" y="16.51" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP5" gate="G$1" x="60.96" y="10.16" smashed="yes" rot="R90">
+<instance part="GND" gate="G$1" x="60.96" y="10.16" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" x="63.5" y="11.43" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="GND22" gate="1" x="48.26" y="7.62" smashed="yes">
@@ -16094,7 +16098,7 @@ package type OT</description>
 <wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TP5" gate="G$1" pin="TP"/>
+<pinref part="GND" gate="G$1" pin="TP"/>
 <wire x1="58.42" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
@@ -16165,7 +16169,7 @@ package type OT</description>
 <label x="167.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="3V3" gate="G$1" pin="TP"/>
 <wire x1="58.42" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <label x="43.18" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -16183,7 +16187,7 @@ package type OT</description>
 <pinref part="L3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="TXD" gate="G$1" pin="TP"/>
 <wire x1="58.42" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <label x="43.18" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -16197,7 +16201,7 @@ package type OT</description>
 <wire x1="91.44" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="RXD" gate="G$1" pin="TP"/>
 <wire x1="58.42" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <label x="43.18" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -16247,7 +16251,7 @@ package type OT</description>
 <label x="25.4" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="PON" gate="G$1" pin="TP"/>
 <wire x1="58.42" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
 <label x="43.18" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -16415,7 +16419,7 @@ package type OT</description>
 <wire x1="104.14" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="BUS_UART1_RXD" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="111.76" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
@@ -16423,6 +16427,7 @@ package type OT</description>
 <wire x1="114.3" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="53.34" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 <junction x="114.3" y="50.8"/>
+<label x="119.38" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
