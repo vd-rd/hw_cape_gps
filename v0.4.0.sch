@@ -14164,7 +14164,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC3" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="24*00" device="OT" package3d_urn="urn:adsk.eagle:package:20809/2" technology="C"/>
+<part name="U30" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="24*00" device="OT" package3d_urn="urn:adsk.eagle:package:20809/2" technology="C"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14651,7 +14651,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND22" gate="1" x="48.26" y="7.62">
 <attribute name="VALUE" x="45.72" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="G$1" x="177.8" y="114.3">
+<instance part="U30" gate="G$1" x="177.8" y="114.3">
 <attribute name="NAME" x="167.64" y="123.19" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="104.14" size="1.778" layer="96"/>
 </instance>
@@ -14822,7 +14822,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pinref part="PAD5" gate="1" pin="P"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="U30" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="109.22" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -14894,7 +14894,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pinref part="PAD3" gate="1" pin="P"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="VCC"/>
+<pinref part="U30" gate="G$1" pin="VCC"/>
 <wire x1="193.04" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <label x="198.12" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -15140,7 +15140,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="SDA"/>
+<pinref part="U30" gate="G$1" pin="SDA"/>
 <wire x1="193.04" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
 <label x="198.12" y="114.3" size="1.778" layer="95"/>
 </segment>
@@ -15156,7 +15156,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="SCL"/>
+<pinref part="U30" gate="G$1" pin="SCL"/>
 <wire x1="165.1" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="152.4" y="114.3" size="1.778" layer="95"/>
 </segment>
