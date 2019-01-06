@@ -14184,10 +14184,12 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
 </parts>
 <sheets>
 <sheet>
-<description>Interface</description>
+<description>Power &amp; Interface</description>
 <plain>
 <text x="167.64" y="83.82" size="2.54" layer="97">LOAD Switch for module power down</text>
 </plain>
@@ -14240,6 +14242,29 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="NAME" x="183.9214" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="188.722" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND22" gate="1" x="190.5" y="109.22">
+<attribute name="VALUE" x="187.96" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="PAD1" gate="1" x="203.2" y="121.92" rot="R180">
+<attribute name="NAME" x="204.343" y="120.0658" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="204.343" y="125.222" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PAD2" gate="1" x="203.2" y="119.38" rot="R180">
+<attribute name="NAME" x="204.343" y="117.5258" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="204.343" y="122.682" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PAD3" gate="1" x="203.2" y="116.84" rot="R180">
+<attribute name="NAME" x="204.343" y="114.9858" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="204.343" y="120.142" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PAD4" gate="1" x="203.2" y="114.3" rot="R180">
+<attribute name="NAME" x="204.343" y="112.4458" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="204.343" y="117.602" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PAD5" gate="1" x="203.2" y="111.76" rot="R180">
+<attribute name="NAME" x="204.343" y="109.9058" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="204.343" y="115.062" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14265,6 +14290,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <segment>
 <pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="PAD5" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="BUS_NRST" class="0">
@@ -14315,6 +14345,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="218.44" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <junction x="218.44" y="71.12"/>
 <label x="226.06" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="200.66" y1="116.84" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
+<label x="185.42" y="116.84" size="1.778" layer="95"/>
+<pinref part="PAD3" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="STATUS" class="0">
@@ -14473,10 +14508,31 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <label x="43.18" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="UART_TXD" class="0">
+<segment>
+<wire x1="200.66" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<label x="185.42" y="121.92" size="1.778" layer="95"/>
+<pinref part="PAD1" gate="1" pin="P"/>
+</segment>
+</net>
+<net name="UART_RXD" class="0">
+<segment>
+<wire x1="200.66" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<label x="185.42" y="119.38" size="1.778" layer="95"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+</segment>
+</net>
+<net name="GPS_PWR" class="0">
+<segment>
+<wire x1="200.66" y1="114.3" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
+<label x="185.42" y="114.3" size="1.778" layer="95"/>
+<pinref part="PAD4" gate="1" pin="P"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
-<description>GPS modem</description>
+<description>GPS modem &amp; RF</description>
 <plain>
 </plain>
 <instances>
@@ -14485,9 +14541,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="IC1" gate="IC" x="50.8" y="43.18">
-<attribute name="NAME" x="50.8" y="61.976" size="1.27" layer="95"/>
-<attribute name="VALUE" x="50.8" y="25.4" size="1.27" layer="96"/>
+<instance part="IC1" gate="IC" x="60.96" y="48.26">
+<attribute name="NAME" x="60.96" y="67.056" size="1.27" layer="95"/>
+<attribute name="VALUE" x="60.96" y="30.48" size="1.27" layer="96"/>
 </instance>
 <instance part="ANT1" gate="G$1" x="213.36" y="154.94"/>
 <instance part="U$1" gate="G$1" x="226.06" y="119.38">
@@ -14556,13 +14612,13 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="NAME" x="84.8614" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.662" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="L3" gate="G$1" x="86.36" y="50.8">
-<attribute name="NAME" x="89.662" y="51.5366" size="1.778" layer="95"/>
-<attribute name="VALUE" x="82.55" y="47.498" size="1.778" layer="96"/>
+<instance part="L3" gate="G$1" x="91.44" y="55.88">
+<attribute name="NAME" x="95.25" y="56.1086" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="52.578" size="1.778" layer="96"/>
 </instance>
-<instance part="L4" gate="G$1" x="99.06" y="48.26">
-<attribute name="NAME" x="92.202" y="48.7426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="44.958" size="1.778" layer="96"/>
+<instance part="L4" gate="G$1" x="101.6" y="53.34">
+<attribute name="NAME" x="105.156" y="53.5686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="50.038" size="1.778" layer="96"/>
 </instance>
 <instance part="R23" gate="G$1" x="241.3" y="160.02">
 <attribute name="NAME" x="237.49" y="161.5186" size="1.778" layer="95"/>
@@ -14578,16 +14634,16 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND14" gate="1" x="248.92" y="147.32">
 <attribute name="VALUE" x="246.38" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="20.32" y="33.02" rot="R180">
-<attribute name="NAME" x="18.796" y="32.639" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="18.796" y="37.719" size="1.778" layer="96" rot="R180"/>
+<instance part="C4" gate="G$1" x="30.48" y="38.1" rot="R180">
+<attribute name="NAME" x="28.956" y="37.719" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="28.956" y="42.799" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="27.94" y="38.1">
-<attribute name="NAME" x="24.13" y="39.5986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="24.13" y="34.798" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="38.1" y="43.18">
+<attribute name="NAME" x="34.29" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.29" y="39.878" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="20.32" y="27.94">
-<attribute name="VALUE" x="17.78" y="25.4" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="30.48" y="33.02">
+<attribute name="VALUE" x="27.94" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="104.14" y="152.4">
 <attribute name="NAME" x="105.664" y="152.781" size="1.778" layer="95"/>
@@ -14648,9 +14704,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND20" gate="1" x="27.94" y="83.82">
 <attribute name="VALUE" x="25.4" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="48.26" y="7.62">
-<attribute name="VALUE" x="45.72" y="5.08" size="1.778" layer="96"/>
-</instance>
 <instance part="U30" gate="G$1" x="177.8" y="114.3">
 <attribute name="NAME" x="167.64" y="123.19" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="104.14" size="1.778" layer="96"/>
@@ -14658,36 +14711,16 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND23" gate="1" x="195.58" y="104.14">
 <attribute name="VALUE" x="193.04" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="144.78" y="45.72">
-<attribute name="NAME" x="140.97" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.97" y="42.418" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="165.1" y="63.5" rot="R270">
+<attribute name="NAME" x="166.5986" y="67.31" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="161.798" y="67.31" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND24" gate="1" x="154.94" y="43.18">
-<attribute name="VALUE" x="152.4" y="40.64" size="1.778" layer="96"/>
+<instance part="GND24" gate="1" x="165.1" y="55.88">
+<attribute name="VALUE" x="162.56" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD1" gate="1" x="60.96" y="20.32" rot="R180">
-<attribute name="NAME" x="62.103" y="18.4658" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.103" y="23.622" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PAD2" gate="1" x="60.96" y="17.78" rot="R180">
-<attribute name="NAME" x="62.103" y="15.9258" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.103" y="21.082" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PAD3" gate="1" x="60.96" y="15.24" rot="R180">
-<attribute name="NAME" x="62.103" y="13.3858" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.103" y="18.542" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PAD4" gate="1" x="60.96" y="12.7" rot="R180">
-<attribute name="NAME" x="62.103" y="10.8458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.103" y="16.002" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PAD5" gate="1" x="60.96" y="10.16" rot="R180">
-<attribute name="NAME" x="62.103" y="8.3058" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.103" y="13.462" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R1" gate="G$1" x="99.06" y="40.64">
-<attribute name="NAME" x="95.25" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="37.338" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="91.44" y="45.72">
+<attribute name="NAME" x="94.996" y="45.9486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="45.974" size="1.778" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="170.18" y="157.48" rot="MR0">
 <attribute name="NAME" x="173.99856875" y="161.55313125" size="1.27285" layer="95" rot="MR0"/>
@@ -14696,13 +14729,21 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND21" gate="1" x="180.34" y="149.86">
 <attribute name="VALUE" x="177.8" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="137.16" y="53.34" rot="R90">
-<attribute name="NAME" x="135.6614" y="49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.462" y="49.53" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="165.1" y="81.28" rot="R90">
+<attribute name="NAME" x="163.6014" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="168.402" y="77.47" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="129.54" y="53.34" rot="R90">
-<attribute name="NAME" x="128.0414" y="49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="132.842" y="49.53" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="157.48" y="81.28" rot="R90">
+<attribute name="NAME" x="155.9814" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="160.782" y="77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="30.48" y="55.88">
+<attribute name="NAME" x="26.67" y="57.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.67" y="52.578" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="157.48" y="63.5" rot="R270">
+<attribute name="NAME" x="158.9786" y="67.31" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="154.178" y="67.31" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -14735,23 +14776,23 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="GND"/>
-<wire x1="38.1" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="30.48" y="35.56" size="1.778" layer="95"/>
+<wire x1="48.26" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<label x="40.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="GND1"/>
-<wire x1="38.1" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.778" layer="95"/>
+<wire x1="48.26" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<label x="40.64" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="GND2"/>
-<wire x1="73.66" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
-<label x="76.2" y="30.48" size="1.778" layer="95"/>
+<wire x1="83.82" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
+<label x="86.36" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="GND3"/>
-<wire x1="73.66" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<label x="76.2" y="58.42" size="1.778" layer="95"/>
+<wire x1="83.82" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<label x="86.36" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
@@ -14817,11 +14858,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="PAD5" gate="1" pin="P"/>
-</segment>
-<segment>
 <pinref part="U30" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="109.22" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
@@ -14830,7 +14866,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="149.86" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
+<junction x="165.1" y="58.42"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="GND"/>
@@ -14856,10 +14894,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
-<junction x="20.32" y="38.1"/>
-<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="33.02" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<junction x="30.48" y="43.18"/>
+<label x="20.32" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14872,8 +14910,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="VCC"/>
-<wire x1="73.66" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<label x="83.82" y="55.88" size="1.778" layer="95"/>
+<wire x1="83.82" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<label x="93.98" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -14889,11 +14927,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <label x="167.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
-<label x="43.18" y="15.24" size="1.778" layer="95"/>
-<pinref part="PAD3" gate="1" pin="P"/>
-</segment>
-<segment>
 <pinref part="U30" gate="G$1" pin="VCC"/>
 <wire x1="193.04" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <label x="198.12" y="119.38" size="1.778" layer="95"/>
@@ -14901,42 +14934,31 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
-<junction x="129.54" y="58.42"/>
-<label x="119.38" y="60.96" size="1.778" layer="95"/>
+<wire x1="165.1" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="86.36" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
+<junction x="157.48" y="86.36"/>
+<label x="147.32" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_TXD" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="RXD"/>
-<wire x1="73.66" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="L3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
-<label x="43.18" y="20.32" size="1.778" layer="95"/>
-<pinref part="PAD1" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="UART_RXD" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="TXD"/>
-<wire x1="73.66" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<label x="43.18" y="17.78" size="1.778" layer="95"/>
-<pinref part="PAD2" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="VDD_BACKUP" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="V_BACK"/>
-<wire x1="73.66" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<label x="81.28" y="53.34" size="1.778" layer="95"/>
+<wire x1="83.82" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
+<label x="91.44" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -14952,27 +14974,23 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <net name="GPS_PWR" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="ON_OFF"/>
-<wire x1="38.1" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<label x="25.4" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
-<label x="43.18" y="12.7" size="1.778" layer="95"/>
-<pinref part="PAD4" gate="1" pin="P"/>
+<wire x1="48.26" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
+<label x="35.56" y="55.88" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="STATUS" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="TIMEPULSE"/>
-<wire x1="38.1" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<label x="25.4" y="53.34" size="1.778" layer="95"/>
+<wire x1="48.26" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
+<label x="35.56" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LNA_EN" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="NC6"/>
-<wire x1="73.66" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
-<label x="81.28" y="33.02" size="1.778" layer="95"/>
+<wire x1="83.82" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<label x="91.44" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -14991,8 +15009,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="RF_IN"/>
-<wire x1="38.1" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<label x="27.94" y="33.02" size="1.778" layer="95"/>
+<wire x1="48.26" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<label x="38.1" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_PAS" class="0">
@@ -15055,8 +15073,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <net name="BUS_UART1_TXD" class="0">
 <segment>
 <pinref part="L4" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
-<label x="106.68" y="48.26" size="1.778" layer="95"/>
+<wire x1="106.68" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<label x="111.76" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -15076,9 +15094,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <net name="VRF" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="VCC_RF"/>
-<wire x1="38.1" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<label x="33.02" y="38.1" size="1.778" layer="95"/>
+<label x="43.18" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -15120,12 +15138,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="BUS_UART1_RXD" class="0">
 <segment>
-<wire x1="111.76" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-<label x="106.68" y="50.8" size="1.778" layer="95"/>
+<label x="111.76" y="55.88" size="1.778" layer="95"/>
 <pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -15146,12 +15161,17 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="BAUD_RATE_0"/>
-<wire x1="73.66" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
-<label x="81.28" y="43.18" size="1.778" layer="95"/>
+<label x="91.44" y="48.26" size="1.778" layer="95"/>
+<wire x1="83.82" y1="48.26" x2="109.0676" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="48.26" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
-<junction x="129.54" y="43.18"/>
+<wire x1="157.48" y1="76.2" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="142.3924" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<label x="144.78" y="71.12" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="68.58" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<junction x="157.48" y="71.12"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -15162,27 +15182,38 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="IC" pin="BAUD_RATE_1"/>
-<wire x1="73.66" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<label x="91.44" y="50.8" size="1.778" layer="95"/>
+<wire x1="83.82" y1="50.8" x2="109.0676" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<label x="81.28" y="45.72" size="1.778" layer="95"/>
+<wire x1="165.1" y1="73.66" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="48.26" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
-<junction x="137.16" y="45.72"/>
+<wire x1="165.1" y1="76.2" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<junction x="165.1" y="73.66"/>
+<wire x1="142.3924" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<label x="144.78" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="RST"/>
-<wire x1="73.66" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BUS_NRST" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<label x="121.92" y="40.64" size="1.778" layer="95"/>
+<wire x1="96.52" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<label x="111.76" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_CAPE_EN2" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="7.62" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
