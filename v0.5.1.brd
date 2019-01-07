@@ -216,6 +216,8 @@
 <text x="-5.3" y="12.2" size="1.2" layer="47">1.2</text>
 <wire x1="1" y1="20.92" x2="-7" y2="20.92" width="0.2" layer="47"/>
 <dimension x1="-7" y1="20.92" x2="-7" y2="0" x3="-7" y3="10.46" textsize="1.2" layer="47" dtype="horizontal"/>
+<text x="37" y="9" size="1.2" layer="22" font="vector" ratio="16" rot="MR90">UNDA s.n.:</text>
+<rectangle x1="37" y1="18" x2="39" y2="29" layer="22"/>
 </plain>
 <libraries>
 <library name="antenova">
