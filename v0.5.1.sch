@@ -13621,7 +13621,7 @@ package type OT</description>
 </library>
 <library name="parts-fibocom" urn="urn:adsk.eagle:library:7452888">
 <packages>
-<package name="_GTS_4E_60" urn="urn:adsk.eagle:footprint:7452889/2" library_version="2">
+<package name="_GTS_4E_60" urn="urn:adsk.eagle:footprint:7452889/3" library_version="3">
 <smd name="24" x="-7.000003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
 <smd name="23" x="-5.900003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
 <smd name="22" x="-4.800003125" y="5.850003125" dx="2" dy="0.76" layer="1" rot="R270"/>
@@ -13646,14 +13646,14 @@ package type OT</description>
 <smd name="10" x="4.799996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
 <smd name="11" x="5.899996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
 <smd name="12" x="6.999996875" y="-5.849996875" dx="2" dy="0.76" layer="1" rot="R270"/>
-<wire x1="7.999996875" y1="6.100003125" x2="7.999996875" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="7.999996875" y1="-6.099996875" x2="7.449996875" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="7.999996875" y1="6.100003125" x2="7.449996875" y2="6.100003125" width="0.12" layer="21"/>
-<wire x1="2.149996875" y1="6.100003125" x2="0.049996875" y2="6.100003125" width="0.12" layer="21"/>
-<wire x1="-7.450003125" y1="6.100003125" x2="-8.000003125" y2="6.100003125" width="0.12" layer="21"/>
-<wire x1="-8.000003125" y1="6.100003125" x2="-8.000003125" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="-8.000003125" y1="-6.099996875" x2="-7.450003125" y2="-6.099996875" width="0.12" layer="21"/>
-<wire x1="0.049996875" y1="-6.099996875" x2="2.149996875" y2="-6.099996875" width="0.12" layer="21"/>
+<wire x1="7.999996875" y1="6.100003125" x2="7.999996875" y2="-6.099996875" width="0.12" layer="51"/>
+<wire x1="7.999996875" y1="-6.099996875" x2="7.449996875" y2="-6.099996875" width="0.12" layer="51"/>
+<wire x1="7.999996875" y1="6.100003125" x2="7.449996875" y2="6.100003125" width="0.12" layer="51"/>
+<wire x1="2.149996875" y1="6.100003125" x2="0.049996875" y2="6.100003125" width="0.12" layer="51"/>
+<wire x1="-7.450003125" y1="6.100003125" x2="-8.000003125" y2="6.100003125" width="0.12" layer="51"/>
+<wire x1="-8.000003125" y1="6.100003125" x2="-8.000003125" y2="-6.099996875" width="0.12" layer="51"/>
+<wire x1="-8.000003125" y1="-6.099996875" x2="-7.450003125" y2="-6.099996875" width="0.12" layer="51"/>
+<wire x1="0.049996875" y1="-6.099996875" x2="2.149996875" y2="-6.099996875" width="0.12" layer="51"/>
 <wire x1="-7.550003125" y1="4.680003125" x2="-7.540003125" y2="4.680003125" width="0" layer="21"/>
 <wire x1="7.6" y1="-6.4" x2="8.3" y2="-6.4" width="0.2" layer="21"/>
 <wire x1="8.3" y1="-6.4" x2="8.3" y2="6.4" width="0.2" layer="21"/>
@@ -13675,7 +13675,7 @@ package type OT</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="_GTS_4E_60" urn="urn:adsk.eagle:package:7452893/2" type="box" library_version="2">
+<package3d name="_GTS_4E_60" urn="urn:adsk.eagle:package:7452893/3" type="box" library_version="3">
 <packageinstances>
 <packageinstance name="_GTS_4E_60"/>
 </packageinstances>
@@ -13717,7 +13717,7 @@ package type OT</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GTS-4E-60" urn="urn:adsk.eagle:component:7452895/2" prefix="IC" library_version="2">
+<deviceset name="GTS-4E-60" urn="urn:adsk.eagle:component:7452895/3" prefix="IC" library_version="3">
 <description>The GTS-4E is a new generation of GPS receiving module.
 
 FIBOCOM
@@ -13755,7 +13755,7 @@ GTS 4E 60</description>
 <connect gate="IC" pin="V_BACK" pad="22"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7452893/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7452893/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -14001,7 +14001,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="IC1" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="GTS-4E-60" device="" package3d_urn="urn:adsk.eagle:package:7452893/2"/>
+<part name="IC1" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="GTS-4E-60" device="" package3d_urn="urn:adsk.eagle:package:7452893/3"/>
 <part name="ANT1" library="antenova" deviceset="M20047" device="" package3d_urn="urn:adsk.eagle:package:6631754/1"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA12-2" device="" package3d_urn="urn:adsk.eagle:package:8353/1"/>
 <part name="U10" library="nxp" deviceset="BGU8019" device="" value="BGU8019"/>
