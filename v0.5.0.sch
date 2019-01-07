@@ -548,58 +548,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="sr-passives">
-<packages>
-<package name="2540A">
-<wire x1="-8.5" y1="12.5" x2="8.5" y2="12.5" width="0.127" layer="51"/>
-<wire x1="12.5" y1="8.5" x2="12.5" y2="-8.5" width="0.127" layer="51"/>
-<wire x1="8.5" y1="-12.5" x2="-8.5" y2="-12.5" width="0.127" layer="51"/>
-<wire x1="-12.5" y1="-8.5" x2="-12.5" y2="8.5" width="0.127" layer="51"/>
-<wire x1="12.5" y1="8.5" x2="8.5" y2="12.5" width="0.127" layer="51" curve="90"/>
-<wire x1="-8.5" y1="12.5" x2="-12.5" y2="8.5" width="0.127" layer="51" curve="90"/>
-<wire x1="-12.5" y1="-8.5" x2="-8.5" y2="-12.5" width="0.127" layer="51" curve="90"/>
-<wire x1="8.5" y1="-12.5" x2="12.5" y2="-8.5" width="0.127" layer="51" curve="90"/>
-<pad name="P$1" x="0" y="2.5" drill="1"/>
-<wire x1="-8.5" y1="13" x2="7.5" y2="13" width="0.3" layer="21"/>
-<wire x1="13" y1="8.5" x2="13" y2="-8.5" width="0.3" layer="21"/>
-<wire x1="13" y1="-8.5" x2="8.5" y2="-13" width="0.3" layer="21" curve="-90"/>
-<wire x1="8.5" y1="-13" x2="-8.5" y2="-13" width="0.3" layer="21"/>
-<wire x1="-8.5" y1="-13" x2="-13" y2="-8.5" width="0.3" layer="21" curve="-90"/>
-<wire x1="-13" y1="-8.5" x2="-13" y2="8.5" width="0.3" layer="21"/>
-<wire x1="-13" y1="8.5" x2="-8.5" y2="13" width="0.3" layer="21" curve="-90"/>
-<wire x1="13" y1="8.5" x2="8.5" y2="13" width="0.3" layer="21" curve="90"/>
-<wire x1="8.5" y1="13" x2="7.5" y2="13" width="0.3" layer="21"/>
-<text x="-9" y="14" size="1.27" layer="25" font="vector" ratio="20">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="FEED">
-<pin name="P$1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-2.54" y="5.08" size="1.778" layer="95" ratio="20">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96" ratio="20">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ANT1590-" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="FEED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2540A" package="2540A">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="nxp">
 <packages>
 <package name="XSON6">
@@ -10627,64 +10575,6 @@ http://www.zetex.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="parts-te_conn" urn="urn:adsk.eagle:library:7449142">
-<packages>
-<package name="2118717-2" urn="urn:adsk.eagle:footprint:7449295/1" library_version="2">
-<smd name="P$1" x="0.5" y="1.705" dx="3.41" dy="1" layer="1" rot="R90"/>
-<smd name="P$2" x="0.5" y="7.51" dx="3.8" dy="1" layer="1" rot="R90"/>
-<smd name="P$3" x="0.5" y="13.51" dx="3.8" dy="1" layer="1" rot="R90"/>
-<smd name="P$4" x="0.5" y="19.51" dx="3.8" dy="1" layer="1" rot="R90"/>
-<smd name="P$5" x="0.5" y="25.31" dx="3.4" dy="1" layer="1" rot="R90"/>
-<smd name="P$6" x="1.705" y="0.5" dx="3.41" dy="1" layer="1"/>
-<smd name="P$7" x="7.51" y="0.5" dx="3.8" dy="1" layer="1"/>
-<smd name="P$8" x="13.51" y="0.5" dx="3.8" dy="1" layer="1"/>
-<smd name="P$9" x="19.51" y="0.5" dx="3.8" dy="1" layer="1"/>
-<smd name="P$10" x="25.31" y="0.5" dx="3.4" dy="1" layer="1"/>
-<smd name="P$11" x="26.51" y="25.305" dx="3.41" dy="1" layer="1" rot="R270"/>
-<smd name="P$12" x="26.51" y="19.5" dx="3.8" dy="1" layer="1" rot="R270"/>
-<smd name="P$13" x="26.51" y="13.5" dx="3.8" dy="1" layer="1" rot="R270"/>
-<smd name="P$14" x="26.51" y="7.5" dx="3.8" dy="1" layer="1" rot="R270"/>
-<smd name="P$15" x="26.51" y="1.7" dx="3.4" dy="1" layer="1" rot="R270"/>
-<smd name="P$16" x="25.305" y="26.51" dx="3.41" dy="1" layer="1" rot="R180"/>
-<smd name="P$17" x="19.5" y="26.51" dx="3.8" dy="1" layer="1" rot="R180"/>
-<smd name="P$18" x="13.5" y="26.51" dx="3.8" dy="1" layer="1" rot="R180"/>
-<smd name="P$19" x="7.5" y="26.51" dx="3.8" dy="1" layer="1" rot="R180"/>
-<smd name="P$20" x="1.7" y="26.51" dx="3.4" dy="1" layer="1" rot="R180"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="2118717-2" urn="urn:adsk.eagle:package:7449297/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="2118717-2"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="EMI" urn="urn:adsk.eagle:symbol:7449296/1" library_version="2">
-<pin name="GASKET" x="-5.08" y="0" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2118718-2" urn="urn:adsk.eagle:component:7449298/1" library_version="2">
-<gates>
-<gate name="G$1" symbol="EMI" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="2118717-2">
-<connects>
-<connect gate="G$1" pin="GASKET" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7449297/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="elna" urn="urn:adsk.eagle:library:7451320">
 <packages>
 <package name="621" urn="urn:adsk.eagle:footprint:7451331/1" library_version="3">
@@ -14114,30 +14004,25 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="IC1" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="GTS-4E-60" device="" package3d_urn="urn:adsk.eagle:package:7452893/2"/>
 <part name="ANT1" library="antenova" deviceset="M20047" device="" package3d_urn="urn:adsk.eagle:package:6631754/1"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA12-2" device="" package3d_urn="urn:adsk.eagle:package:8353/1"/>
-<part name="ANT2" library="sr-passives" deviceset="ANT1590-" device="2540A"/>
-<part name="U1" library="nxp" deviceset="BGU8019" device="" value="BGU8019"/>
-<part name="U2" library="rf360" deviceset="B3916" device="B8813P810"/>
+<part name="U10" library="nxp" deviceset="BGU8019" device="" value="BGU8019"/>
+<part name="U20" library="rf360" deviceset="B3916" device="B8813P810" value="B3916B8813P810"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22nH"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
+<part name="L10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22nH"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="T1" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1" value="FDV301N"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="150"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U3" library="parts-infineon" library_urn="urn:adsk.eagle:library:7444987" deviceset="BGS12PL6" device="" package3d_urn="urn:adsk.eagle:package:7445006/2" value="BGS12PL6"/>
+<part name="U50" library="parts-infineon" library_urn="urn:adsk.eagle:library:7444987" deviceset="BGS12PL6" device="" package3d_urn="urn:adsk.eagle:package:7445006/2" value="BGS12PL6"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="parts-te_conn" library_urn="urn:adsk.eagle:library:7449142" deviceset="2118718-2" device="" package3d_urn="urn:adsk.eagle:package:7449297/1"/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="47pF"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="47pF"/>
-<part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22nH"/>
+<part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="47pF"/>
+<part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="47pF"/>
+<part name="L50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="22nH"/>
 <part name="L3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="blm15"/>
 <part name="L4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="blm15"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
@@ -14147,12 +14032,12 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10nF"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10nF"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
+<part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10"/>
+<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
 <part name="BAT1" library="elna" library_urn="urn:adsk.eagle:library:7451320" deviceset="DCK-3R3E224U-E" device="" package3d_urn="urn:adsk.eagle:package:7451333/1" value="DCK-3R3E224U-E"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="150"/>
@@ -14160,8 +14045,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10nF"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
+<part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
+<part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="0"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U30" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="24*00" device="OT" package3d_urn="urn:adsk.eagle:package:20809/2" technology="C"/>
@@ -14546,20 +14431,16 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="VALUE" x="60.96" y="30.48" size="1.27" layer="96"/>
 </instance>
 <instance part="ANT1" gate="G$1" x="213.36" y="154.94"/>
-<instance part="ANT2" gate="G$1" x="226.06" y="119.38">
-<attribute name="NAME" x="223.52" y="124.46" size="1.778" layer="95" ratio="20"/>
-<attribute name="VALUE" x="231.14" y="119.38" size="1.778" layer="96" ratio="20"/>
+<instance part="U10" gate="G$1" x="81.28" y="139.7">
+<attribute name="NAME" x="86.36" y="143.51" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="86.36" y="139.7">
-<attribute name="NAME" x="91.44" y="143.51" size="1.778" layer="95"/>
-<attribute name="VALUE" x="91.44" y="134.62" size="1.778" layer="96"/>
+<instance part="U20" gate="G$1" x="116.84" y="137.16">
+<attribute name="NAME" x="114.3" y="144.78" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="106.68" y="129.54" size="1.778" layer="96" ratio="20"/>
 </instance>
-<instance part="U2" gate="G$1" x="116.84" y="137.16">
-<attribute name="NAME" x="114.3" y="142.24" size="1.778" layer="95" ratio="20"/>
-<attribute name="VALUE" x="114.3" y="132.08" size="1.778" layer="96" ratio="20"/>
-</instance>
-<instance part="GND1" gate="1" x="88.9" y="127">
-<attribute name="VALUE" x="86.36" y="124.46" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="83.82" y="127">
+<attribute name="VALUE" x="81.28" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="101.6" y="127">
 <attribute name="VALUE" x="99.06" y="124.46" size="1.778" layer="96"/>
@@ -14574,41 +14455,30 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND4" gate="1" x="30.48" y="127">
 <attribute name="VALUE" x="27.94" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="53.34" y="139.7">
+<instance part="L10" gate="G$1" x="53.34" y="139.7">
 <attribute name="NAME" x="49.53" y="136.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.61" y="136.398" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="83.82" y="152.4">
-<attribute name="NAME" x="80.01" y="153.8986" size="1.778" layer="95"/>
+<instance part="R10" gate="G$1" x="83.82" y="152.4">
+<attribute name="NAME" x="75.438" y="152.6286" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="149.098" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$1" x="50.8" y="93.98">
+<instance part="U50" gate="G$1" x="50.8" y="93.98">
 <attribute name="NAME" x="48.26" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.8" y="83.82" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="27.94" y="93.98">
 <attribute name="VALUE" x="25.4" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="226.06" y="109.22" rot="R90">
-<attribute name="NAME" x="231.14" y="111.76" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="233.68" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="C52" gate="G$1" x="76.2" y="88.9" rot="R90">
+<attribute name="NAME" x="70.104" y="89.281" size="1.778" layer="95"/>
+<attribute name="VALUE" x="79.248" y="89.281" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="231.14" y="106.68">
-<attribute name="VALUE" x="228.6" y="104.14" size="1.778" layer="96"/>
+<instance part="C51" gate="G$1" x="76.2" y="93.98" rot="R90">
+<attribute name="NAME" x="70.104" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="79.248" y="94.361" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="228.6" y="96.52"/>
-<instance part="GND9" gate="1" x="223.52" y="93.98">
-<attribute name="VALUE" x="220.98" y="91.44" size="1.778" layer="96"/>
-</instance>
-<instance part="C2" gate="G$1" x="76.2" y="88.9" rot="R90">
-<attribute name="NAME" x="75.819" y="90.424" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="79.248" y="90.551" size="1.778" layer="96"/>
-</instance>
-<instance part="C3" gate="G$1" x="76.2" y="93.98" rot="R90">
-<attribute name="NAME" x="75.819" y="95.504" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="80.899" y="95.504" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="L2" gate="G$1" x="86.36" y="83.82" rot="R90">
+<instance part="L50" gate="G$1" x="86.36" y="83.82" rot="R90">
 <attribute name="NAME" x="84.8614" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.662" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -14643,12 +14513,12 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND16" gate="1" x="30.48" y="33.02">
 <attribute name="VALUE" x="27.94" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="104.14" y="152.4">
-<attribute name="NAME" x="105.664" y="152.781" size="1.778" layer="95"/>
-<attribute name="VALUE" x="105.664" y="147.701" size="1.778" layer="96"/>
+<instance part="C10" gate="G$1" x="66.04" y="152.4">
+<attribute name="NAME" x="67.564" y="152.781" size="1.778" layer="95"/>
+<attribute name="VALUE" x="67.564" y="147.701" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="104.14" y="144.78">
-<attribute name="VALUE" x="101.6" y="142.24" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="66.04" y="144.78">
+<attribute name="VALUE" x="63.5" y="142.24" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="22.86" y="15.24" rot="R180">
 <attribute name="NAME" x="21.336" y="14.859" size="1.778" layer="95" rot="R180"/>
@@ -14657,11 +14527,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND18" gate="1" x="22.86" y="10.16">
 <attribute name="VALUE" x="20.32" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="27.94" y="20.32">
+<instance part="R60" gate="G$1" x="27.94" y="20.32">
 <attribute name="NAME" x="24.13" y="21.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="17.018" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="30.48" y="99.06" rot="R90">
+<instance part="C50" gate="G$1" x="30.48" y="99.06" rot="R90">
 <attribute name="NAME" x="30.099" y="100.584" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="35.179" y="100.584" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -14691,11 +14561,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="GND19" gate="1" x="185.42" y="30.48">
 <attribute name="VALUE" x="182.88" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="50.8" y="78.74" rot="R180">
+<instance part="R51" gate="G$1" x="50.8" y="78.74" rot="R180">
 <attribute name="NAME" x="54.61" y="77.2414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="54.61" y="82.042" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R14" gate="G$1" x="40.64" y="86.36">
+<instance part="R50" gate="G$1" x="40.64" y="86.36">
 <attribute name="NAME" x="36.83" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="83.058" size="1.778" layer="96"/>
 </instance>
@@ -14749,23 +14619,23 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="GND_IN"/>
+<pinref part="U20" gate="G$1" pin="GND_IN"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="101.6" y1="134.62" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="GND_OUT"/>
+<pinref part="U20" gate="G$1" pin="GND_OUT"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="132.08" y1="134.62" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND_RF"/>
+<pinref part="U10" gate="G$1" pin="GND_RF"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="88.9" y1="132.08" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="83.82" y1="132.08" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
-<junction x="88.9" y="129.54"/>
+<pinref part="U10" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="132.08" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
+<junction x="83.82" y="129.54"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -14793,21 +14663,13 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <label x="86.36" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="U50" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="43.18" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <junction x="27.94" y="96.52"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="GASKET"/>
-<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="ANT1" gate="G$1" pin="GND"/>
@@ -14830,7 +14692,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14850,7 +14712,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <junction x="185.42" y="33.02"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
@@ -14876,17 +14738,17 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RF_OUT"/>
-<pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="93.98" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="RF_OUT"/>
+<pinref part="U20" gate="G$1" pin="IN"/>
+<wire x1="88.9" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD_RF" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L50" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="78.74" size="1.778" layer="95"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14900,9 +14762,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RF_IN"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="RF_IN"/>
+<pinref part="L10" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14993,15 +14855,14 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="ENABLE"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="ENABLE"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="147.32" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RFIN" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="RFIN"/>
+<pinref part="U50" gate="G$1" pin="RFIN"/>
 <wire x1="45.72" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 <label x="38.1" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -15013,12 +14874,12 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="GPS_PAS" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="OUT"/>
+<pinref part="U20" gate="G$1" pin="OUT"/>
 <wire x1="132.08" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <label x="134.62" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -15032,39 +14893,32 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <wire x1="195.58" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C52" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 <label x="91.44" y="88.9" size="1.778" layer="95"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L50" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
 <junction x="86.36" y="88.9"/>
-</segment>
-</net>
-<net name="N$1" class="1">
-<segment>
-<pinref part="J2" gate="G$1" pin="SIGNAL"/>
-<pinref part="ANT2" gate="G$1" pin="P$1"/>
-<wire x1="226.06" y1="114.3" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="SIGNAL"/>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="L10" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="RF1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="U50" gate="G$1" pin="RF1"/>
+<pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="RF2"/>
+<pinref part="C52" gate="G$1" pin="1"/>
+<pinref part="U50" gate="G$1" pin="RF2"/>
 <wire x1="73.66" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15097,34 +14951,35 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <label x="43.18" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R60" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
 <label x="35.56" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VDD"/>
+<pinref part="U50" gate="G$1" pin="VDD"/>
 <wire x1="45.72" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
 <label x="38.1" y="99.06" size="1.778" layer="95"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C50" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VDD_RFP" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R60" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <junction x="22.86" y="20.32"/>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
+<pinref part="U10" gate="G$1" pin="VCC"/>
+<wire x1="83.82" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="147.32" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="152.4" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
 <label x="91.44" y="154.94" size="1.778" layer="95"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <junction x="88.9" y="152.4"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -15143,10 +14998,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="P$4"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="U50" gate="G$1" pin="P$4"/>
+<pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="88.9" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="86.36" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <junction x="45.72" y="86.36"/>
 </segment>
