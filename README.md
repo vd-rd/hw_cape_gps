@@ -1,4 +1,6 @@
 # GPS cape 
+The cape can be viewed in the current version at https://a360.co/2DnqBSM
+<iframe src="https://myhub.autodesk360.com/ue2949173/shares/public/SH7f1edQT22b515c761ec892ef97e15452c9?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Description
  Designed for accurate positioning inside embedded projects, this GPS cape offers extended telemetry information, as well as multiple choices for antenna type and placing as well as SoC options.
