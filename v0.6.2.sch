@@ -11819,7 +11819,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="parts-onsemi" library_urn="urn:adsk.eagle:library:7659655" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:8169088/1"/>
+<part name="T1" library="parts-onsemi" library_urn="urn:adsk.eagle:library:7659655" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:8169088/1"/>
 <part name="J1" library="parts-molex" library_urn="urn:adsk.eagle:library:8188814" deviceset="U.FL-R-SMT(01)" device="" package3d_urn="urn:adsk.eagle:package:8188817/2"/>
 <part name="J7" library="parts-molex" library_urn="urn:adsk.eagle:library:8188814" deviceset="U.FL-R-SMT(01)" device="" package3d_urn="urn:adsk.eagle:package:8188817/2"/>
 </parts>
@@ -11936,7 +11936,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <instance part="GND27" gate="1" x="182.88" y="147.32" smashed="yes">
 <attribute name="VALUE" x="180.34" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="68.58" y="91.44" smashed="yes">
+<instance part="T1" gate="G$1" x="68.58" y="91.44" smashed="yes">
 <attribute name="VALUE" x="57.15" y="91.44" size="1.778" layer="96"/>
 <attribute name="NAME" x="57.15" y="93.98" size="1.778" layer="95"/>
 </instance>
@@ -11992,7 +11992,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="S"/>
+<pinref part="T1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="BUS_NRST" class="0">
@@ -12006,7 +12006,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="D"/>
+<pinref part="T1" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -12040,7 +12040,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <segment>
 <wire x1="66.04" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
 <label x="55.88" y="88.9" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="G"/>
+<pinref part="T1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="BUS_VSYS" class="0">
