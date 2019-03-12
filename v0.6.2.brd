@@ -170,7 +170,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:oViwxCf5Rhm5LyCPxLpYqQ" pcbguid="69ebc9de-ab14-4078-a395-b8bb79895298" lastpulledtime="" lastsyncedchangeguid="38435a9c-8e51-347d-f984-e0ee0033a3f1"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:oViwxCf5Rhm5LyCPxLpYqQ" pcbguid="69ebc9de-ab14-4078-a395-b8bb79895298" lastpulledtime="" lastsyncedchangeguid="dde79e74-9480-20d9-4324-2e38c8784471"/>
 <fusionteam huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" folderUrn="urn:adsk.wipprod:fs.folder:co.05y9ARO-QF2fVREpUou2GQ" urn="urn:adsk.wipprod:dm.lineage:1ZVq8ggNQ1qGDO63oA7IGQ"  versionUrn="urn:adsk.wipprod:fs.file:vf.1ZVq8ggNQ1qGDO63oA7IGQ?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="310e3cfc-ef13-711f-17c2-ba53ead71850"/>
 <plain>
 <wire x1="3" y1="40" x2="37" y2="40" width="0" layer="20"/>
